@@ -1,4 +1,4 @@
-const status = window.navigator.online;
+const status = window.navigator.onLine;
 
 if (status) Online();
 else offline();

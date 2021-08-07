@@ -8,10 +8,10 @@ window.addEventListener("offline", offline);
 
 function Online() {
   document.getElementById("container").style.background = "#1b6535";
-  document.querySelector("h1").textContent = "you are connected";
+  document.querySelector("h1").textContent = "you are connected with Internet";
 }
 
 function offline() {
   document.getElementById("container").style.background = "#d71b3b";
-  document.querySelector("h1").textContent = "you are disconnected";
+  document.querySelector("h1").textContent = "you are disconnected with Internet";
 }

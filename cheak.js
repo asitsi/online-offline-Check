@@ -18,5 +18,3 @@ function offline() {
   document.getElementById("container").style.background = "#d71b3b";
   document.querySelector("h1").textContent = "you are disconnected with Internet";
 }
-
-setInterval(, 1000);

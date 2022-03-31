@@ -1,4 +1,7 @@
-const status = window.navigator.onLine;
+setInterval({
+   const status = window.navigator.onLine;
+}, 1000);
+
 
 if (status) Online();
 else offline();
@@ -15,3 +18,5 @@ function offline() {
   document.getElementById("container").style.background = "#d71b3b";
   document.querySelector("h1").textContent = "you are disconnected with Internet";
 }
+
+setInterval(, 1000);

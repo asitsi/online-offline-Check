@@ -1,7 +1,4 @@
-setInterval({
-   const status = window.navigator.onLine;
-}, 1000);
-
+const status = window.navigator.onLine
 
 if (status) Online();
 else offline();
